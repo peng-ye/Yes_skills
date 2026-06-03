@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reproducible Project Work"
+  short_description: "Scripted, logged project workflows"
+  default_prompt: "Run this as reproducible project work: create a task folder, write scripts, manage environments, log operations, save reproducible outputs, and update downstream reports."
