@@ -19,6 +19,7 @@ Make file-based work reproducible by default. Prefer scripts, explicit directori
 - Write scripts for repeatable tasks instead of relying only on shell history or notebook state.
 - Keep scripts in `scripts/`, name them by function, and execute them to produce the requested outputs.
 - Make scripts runnable from a clean shell where practical. Include relative paths or configurable input/output paths.
+- Add concise but sufficient comments, section headers, and function/docstring annotations in R, Python, and other programming-language scripts so another person can understand the purpose, inputs, outputs, assumptions, and non-obvious logic without reading the whole workflow line by line.
 - Set and record random seeds for stochastic work. Make the seed visible in scripts, logs, and reports.
 - Before finalizing, rerun or smoke-test the main script or workflow target, inspect outputs for obvious failure, and mention any command that could not be run.
 
